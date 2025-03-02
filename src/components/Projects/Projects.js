@@ -3,10 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-//aca tengo que poner las fotos de mis proyectos
-import weatherApp from "../../Assets/Projects/weatherApp.png";
-import scheduling from "../../Assets/Projects/scheduling.png";
-import metronome from "../../Assets/Projects/metronome.png";
+import weatherApp from "../src/Assets/Projects/weatherApp.png";
+import scheduling from "../src/Assets/Projects/scheduling.png";
+import metronome from "../src/Assets/Projects/metronome.png";
 
 
 function Projects() {
