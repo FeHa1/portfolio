@@ -2,16 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-/* 
-estas vendrian a ser las fotos de los proyectos
 
+//aca tengo que poner las fotos de mis proyectos
 import weatherApp from "../../Assets/Projects/weatherApp.png";
-import controlGym from "../../Assets/Projects/controlGym.png";
-import nacion from "../../Assets/Projects/nacion.png";
-*/
+import scheduling from "../../Assets/Projects/scheduling.png";
+import metronome from "../../Assets/Projects/metronome.png";
 
 
-/*
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,22 +23,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nacion}
+              imgPath={metronome}
               isBlog={false}
-              title="La Nacion"
-              description="I developed a replica of the La Nación website as part of a technical challenge, using React for the UI construction and React Router DOM to manage navigation. I integrated FontAwesome for icons and used Bootstrap along with Tailwind CSS for a responsive design. HTTP requests were handled with React-Axios, and I optimized the project through React Scripts from Create React App. I implemented tests with Jest and React Testing Library to ensure functionality and used TypeScript for clean, well-structured code, measured and optimized."
-              ghLink="https://github.com/WalRol/acumulado2"
-              demoLink="https://acumulado2-vlhv.vercel.app/"
+              title="Metronome"
+              description="I developed a metronome in Python with a graphical interface using Tkinter and Simpleaudio for sound."
+              ghLink="https://github.com/FeHa1/Metronome"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={controlGym}
+              imgPath={scheduling}
               isBlog={false}
-              title="Control-Gym"
-              description="I developed a gym management app for client check-ins and user administration. Built with React and React Router DOM for dynamic navigation, the app uses Tailwind CSS and Bootstrap for responsive design, and Axios for secure data handling. React Query synchronizes client data, with form validation by React Hook Form and Yup. TypeScript and Jest ensure quality code and reliable functionality, with Vite and ESLint streamlining development."
-              demoLink="https://control-gym.vercel.app/"
+              title="Medical scheduling system"
+              description="This project is a medical appointment system application developed in Java, designed to study and apply object-oriented programming concepts, interfaces, abstract classes, and graphical user interface development with Swing. It uses an H2 database to manage information locally, allowing the creation of medical appointments and patient management, as well as user session handling."
+              ghLink="https://github.com/FeHa1/curso-Java"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -49,9 +45,8 @@ function Projects() {
               imgPath={weatherApp}
               isBlog={false}
               title="WeatherApp"
-              description="I developed a single-page weather application that displays key climate data for three locations simultaneously. The app is built with React and styled using Tailwind CSS for responsive design. Animations are powered by Framer Motion for a smooth user experience, and React Icons are used to visually enhance weather data. Vite and ESLint streamline development, ensuring fast performance and clean code.."
-              ghLink="https://github.com/WalRoldan/weatherApp"
-              demoLink="https://weather-app-eight-zeta-67.vercel.app/"
+              description="I developed a weather web application to test React's functionalities."
+              ghLink="https://github.com/FeHa1/reactProyects"
             />
           </Col>
         </Row>
@@ -61,4 +56,3 @@ function Projects() {
 }
 
 export default Projects;
-*/
